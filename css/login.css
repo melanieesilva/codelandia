@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.formcontrol{
+    max-width: 347px;
+    justify-content:left;
+    display: flex;
+    flex-direction: column;
+    flex:auto;
+    margin-left: 350px;
+}
+
+.imagem{
+    max-width: 400px;
+    max-height: 332px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.imagem img{
+    width: 100%;
+}
+
+.btnentrar button{
+    width: 347px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #04C35C;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.btngoogle button{
+    width: 347px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    background-color: #1A202C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.icongoogle img{
+    margin-right: 11px;
+}
+
+#email{
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+#senha{
+    width: 350px;
+    height: 50px;
+    margin-top: 11px;
+    padding-left: 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.rodape{
+    display: flex;
+    margin-top: 28px;
+    margin-bottom: 26px;
+}
+
+#remember{
+    margin-right: 11px;
+}
